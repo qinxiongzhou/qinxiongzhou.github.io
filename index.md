@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages 开发者
+## Welcome to GitHub Pages. IT 架构探索
 
 You can use the [editor on GitHub](https://github.com/qinxiongzhou/itexplore/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
