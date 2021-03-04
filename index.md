@@ -12,13 +12,13 @@ layout: home
         	<h1>目录</h1>
       		<ul class="nav sidenav">
 				{% if site.categories.first[0] == null %}
-					{% for category in site.categories %} 
+					{% for category in site.categories reversed %} 
 				    	<li><a href="#{{ category }}-ref">
 				    		{{ category | join: "/" }} <span style="color: #999999;" >({{ site.categories[category].size }})</span>
 				    	</a></li>
 			    	{% endfor %}
 			  	{% else %}
-			    	{% for category in site.categories %} 
+			    	{% for category in site.categories reversed %} 
 				    	<li><a href="#{{ category[0] }}-ref">
 				    		{{ category[0] | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
 				    	</a></li>
@@ -32,7 +32,7 @@ layout: home
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-			{% for category in site.categories %} 
+			{% for category in site.categories reversed %} 
 			  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
 			  <ul>
 			    {% assign pages_list = category[1] %}  
