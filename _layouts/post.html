@@ -16,7 +16,16 @@ layout: default
               <!--
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
               -->
-              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
+              <div class="meta">
+                Posted on 
+                <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span>
+                &nbsp;&nbsp; 
+                By <a target="_blank" href="{{site.url}}">{{ site.author }}</a> 
+                &nbsp;&nbsp;
+                <span id="busuanzi_container_page_pv">
+                  本文阅读量<span id="busuanzi_value_page_pv"></span>次
+                </span>
+              </div>
               <br />
             </header>
             <article class="post-content">
