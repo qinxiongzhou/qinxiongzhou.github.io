@@ -1,13 +1,13 @@
 # Site settings
-name: IT架构探索
+name: IT探索
 email: qinxiongzhou@gmail.com
 author: 周钦雄
 url: http://itexplore.cn
 github: https://github.com/qinxiongzhou/
 baseurl: ""
-description: 探索微服务架构到数据架构的闭环
-meta_description: 周钦雄;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: 生命不止 折腾不休
+description: 近期探索微服务架构到数据架构的闭环
+meta_description: 周钦雄;个人博客;学而不思则罔;思而不学则殆;生命不止;探索不熄
+motto: 生命不止 探索不熄
 banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
