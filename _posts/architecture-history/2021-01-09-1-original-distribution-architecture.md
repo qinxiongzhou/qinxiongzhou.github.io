@@ -10,7 +10,7 @@ categories: 架构
 {:toc}
 
 本文参考 Fenix Project，在原文基础上做了相应个人整理、思考、补充。
-<a href="http://icyfenix.cn/architecture/architect-history/primitive-distribution.html" target="_blank">原文地址</a>
+[原文地址](http://icyfenix.cn/architecture/architect-history/primitive-distribution.html){:target="_blank"}
 
 
 UNIX的分布式设计哲学				{#unix}
