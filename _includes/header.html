@@ -11,18 +11,12 @@
       </a>
     </div>-->
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">    
+      <ul class="nav navbar-nav mycss">    
         <li>
           <a href="{{ '/' | prepend: site.baseurl }}">主页</a>
         </li>
         <li><a rel="nofollow" target="_blank" href="{{ '/books' | prepend: site.baseurl }}">我的书单</a></li>
         <li><a rel="nofollow" target="_blank" href="/aboutme">关于作者</a></li>
-        <!--<li>
-          <a href="{{ '/categories/' | prepend: site.baseurl }}">大类分解</a>
-        </li>
-        <li>
-          <a href="{{ '/tag' | prepend: site.baseurl }}">小类内聚</a>
-        </li>-->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -45,3 +39,35 @@
     </nav>
   </div>
 </header>
+
+<style type="text/css">
+  
+  ul.mycss {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1d365d;
+  }
+  
+  ul.mycss li {float: left;}
+  
+  ul.mycss li a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  ul.mycss li a:hover:not(.active) {background-color: #111f36;
+  color: #FFF;}
+  
+  ul.mycss li a.active {background-color: #1d365d;}
+  
+  ul.mycss li.right {float: right;}
+  
+  @media screen and (max-width: 600px){
+      ul.mycss li.right, 
+      ul.mycss li {float: none;}
+  }
+  </style>
